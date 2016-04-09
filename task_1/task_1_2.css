@@ -110,7 +110,6 @@ article table td{
 }
 .celan form table{
     width: 100%;
-    //margin:0px;
     font-size: 14px;
 }
 .celan form table td{
@@ -145,4 +144,8 @@ article table td{
     color: white;
     line-height: 70px;
     text-align: center;
+}
+
+article{
+    box-shadow:3px 3px 1px #aaa;
 }

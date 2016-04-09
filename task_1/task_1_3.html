@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>零基础HTML编码</title>
+	<link rel="stylesheet" type="text/css" href="task_1_3.css">
+</head>
+<body>
+	<div>
+		<div class="group">
+			<img src="img/group.jpg">
+			<span>想组个队有那么难吗</span>
+		</div>
+
+		<div class="logo">			
+			<ul>
+				<li><p>林场</p><img src="img/group_1.jpg"></li>
+				<li><p>许捷超</p><img src="img/group_2.jpg"></li>
+				<li><p>官承祺</p><img src="img/group_3.jpg"></li>
+				<li><p>郭晨</p><img src="img/group_4.jpg"></li>
+			</ul>
+		</div>
+
+        <article>
+			<h1>团队介绍</h1>
+			<p>清除浮动（clearfix hack）img {  float: right;}
+			在使用浮动的时候经常会遇到一个古怪的事情：这个图片比包含它的元素还高， 而且它是浮动的，于是它就溢出到了容器外面！</p>
+			<p>有一种比较丑陋的方法可以解决这个问题，它叫做清除浮动（clearfix hack）.让我们加入一些新的CSS样式：.clearfix {  overflow: auto;}
+			这个可以在现代浏览器上工作。如果你想要支持IE6，你就需要再加入如下样式：
+			.clearfix {  overflow: auto;  zoom: 1;}
+			有些独特的浏览器需要“额外的关照”。清除浮动这谭水很深很深，但是这个简单的解决方案已经可以在今天所有的主要浏览器上工作。</p>
+		</article>
+		<div class="clear"></div>
+
+	</div>
+</body>
