@@ -1,0 +1,175 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+   background-color: #dedede;
+   font-family:  "微软雅黑";
+}
+
+nav{
+    background-color: #333;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+}
+nav img{
+	float: left;
+    height:50px;
+    margin-top: 5px;	
+	margin-left: 25px;
+	color: #dc0701
+}
+nav ul{
+	position: absolute;
+	right: 0;
+}
+nav li{	
+	display: inline;
+	margin-right: 10px;
+	padding:5px;
+}
+nav li a{
+	color: white;
+	font-size:10px;
+	text-decoration: none;
+}
+
+/*第一种方法 不对
+.celan {
+    right: 0;
+    top: 70px;
+    width: 325px;
+    position: absolute;
+}
+article {
+    position: relative;
+    //top: 70px;
+    //left: 0;
+    right:385px;
+    //overflow: hidden;
+}
+*/
+
+/*第二种方法*/
+.celan{
+    float:right;
+    width: 325px;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.celan h1{
+    font-size: 20px;
+    border-left: solid #999;
+    margin-bottom: 10px;
+}
+.celan form table{
+    width: 100%;
+    font-size: 14px;
+}
+.celan form table td{
+    padding: 0.5em 0.5em;
+    vertical-align: top;
+}
+.table-left{
+    text-align: right;
+}
+.table-submit{
+    width: 100%;
+    height:40px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    background-color: #66f;
+    border-radius: 10px;
+}
+.table-label{
+    color:gray;
+}
+.table-text{
+}
+.table-textarea{
+    width:100%;
+    height:100px;
+}
+
+
+article{
+	background-color: white;
+	margin: 20px;
+	padding: 20px;
+    margin-right: 405px;
+}
+article h1{
+	margin-top: 20px;
+}
+article h2{
+    font-size: 120%;
+    color: #666;
+    margin-top: 10px;
+}
+article address{
+    font-size: 80%;
+    color: #666;
+    margin-top: 10px;
+}
+article p{
+	font-size: 90%;
+    margin-top: 10px;
+}
+article img{
+    margin-top: 10px;
+}
+article ul{
+	list-style: none;
+    margin: 20px;
+}
+article dt{
+    border: #aaa solid 1px;    
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    display: inline-block;
+}
+article dt img {
+    border: 1px;
+    margin: 10px;
+    width: 130px;
+    height:100px;
+}
+article ol{
+    margin: 20px;
+    margin-left: 40px;
+}
+article table{
+    border: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+article table th{
+    background-color: #333;
+    color: white;
+    padding: 0.3em 1em;
+}
+article table td{
+    padding: 5px 3px;
+    font-size: 13px;
+}
+.summery{
+    background-color: #dedede;
+}
+
+
+.bottom{
+    background-color: black;
+    height: 70px;
+    font-size: 14px;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+}
+
+.celan,article{
+    box-shadow:3px 3px 1px #aaa;
+}
